@@ -1,0 +1,142 @@
+* {
+ font-size: 100%;
+ font-family: Courier;
+}
+
+body {background-color: #91A8d0;}
+
+.headline {
+     text-align: center;
+     font-family: Papyrus;
+     font-size: 200%;
+     background-color: #f4c8c8;
+     width:350px;
+     height:50px;
+     margin: auto;
+     padding-top: 20px;
+    
+}
+
+.signUpButton {
+    background-color: #f4c8c8;
+    border: 2px solid black;
+    color: black;
+    padding: 10px 20px;
+    margin-left: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.donateButton {
+    background-color: #f4c8c8;
+    border: 2px solid black;
+    color: black;
+    padding: 10px 20px;
+    margin-right: 15px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    font-size: 14px;
+}
+
+/* Add a background color to the top navigation */
+
+.topnav {
+    border: 2px dotted black;
+    background-color: #f4c8c8;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left; 
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #91A8d0;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    /* background-color: #f2d5da; */
+    color: white;
+}
+
+/* home page - forum rules */
+.boxed {
+  border: 2px solid black ;
+    width:650px;
+    height:500px;
+    margin:auto; /*you only need this part to center*/
+    margin-top:100px;
+    text-align:center;
+    background-color: white;
+    
+}
+
+/* forum page - forum post */
+.boxed1 {
+  border: 2px solid black ;
+    width:650px;
+    height:150px;
+    margin:auto; /*you only need this part to center*/
+    margin-top:90px;
+    text-align:center;
+    background-color: white;
+}
+
+/* forum page - forum post */
+.boxed2 {
+  border: 2px solid black ;
+    width:650px;
+    height:150px;
+    margin:auto; /*you only need this part to center*/
+    margin-top:50px;
+    text-align:center;
+    background-color: white;
+}
+
+/* forum page - forum post */
+.boxed3 {
+  border: 2px solid black ;
+    width:650px;
+    height:150px;
+    margin:auto; /*you only need this part to center*/
+    margin-top:50px;
+    text-align:center;
+    background-color: white;
+}
+
+/* write page - your title */
+.write {
+  border: 2px solid black ;
+    width:650px;
+    height:300px;
+    margin:auto; /*you only need this part to center*/
+    text-align:center;
+    background-color: white;
+}
+
+/* write page - your post */
+.writeTitle {
+  border: 2px solid black ;
+    width:650px;
+    height:50px;
+    margin:auto; /*you only need this part to center*/
+    margin-top:70px;
+    margin-bottom:50px;
+    text-align:center;
+    background-color: white;
+}
