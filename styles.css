@@ -5,40 +5,60 @@
 
 body {background-color: #91A8d0;}
 
-.headline {
-     text-align: center;
-     font-family: Papyrus;
-     font-size: 200%;
-     background-color: #f4c8c8;
-     width:350px;
-     height:50px;
-     margin: auto;
-     padding-top: 20px;
-    
-}
-
 .signUpButton {
-    background-color: #f4c8c8;
-    border: 2px solid black;
-    color: black;
-    padding: 10px 20px;
-    margin-left: 15px;
+    /*padding: 10px 20px;*/
+    /*margin-left: 15px;*/
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
+    width: 15%;
+    height:50px;
+}
+
+.signUpButton a {
+    border: 2px solid black;
+    padding: 10px 20px;
+    /*margin-left: 15px;*/
+    text-align: center;
+    background-color: #f4c8c8;
+   text-align: center;
+}
+
+.headline {
+     text-align: center;
+     font-family: Papyrus;
+     font-size: 370%;
+     /*background-color: #f4c8c8;*/
+     width:64%;
+     /*height:50px;*/
+     margin: auto;
+     padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+   
+    
 }
 
 .donateButton {
-    background-color: #f4c8c8;
-    border: 2px solid black;
-    color: black;
-    padding: 10px 20px;
-    margin-right: 15px;
+    /*padding: 10px 20px;*/
+    /*margin-left: 15px;*/
     text-align: center;
     text-decoration: none;
-    float: right;
+    display: inline-block;
     font-size: 14px;
+    width: 15%;
+    height:50px;
+}
+
+.donateButton a {
+    border: 2px solid black;
+    padding: 10px 20px;
+    /*margin-left: 15px;*/
+    text-align: center;
+    background-color: #f4c8c8;
+    text-align: center;
 }
 
 /* Add a background color to the top navigation */
@@ -70,19 +90,24 @@ body {background-color: #91A8d0;}
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    /* background-color: #f2d5da; */
+    /*background-color: #f2d5da; */
     color: white;
 }
 
 /* home page - forum rules */
 .boxed {
   border: 2px solid black ;
-    width:650px;
-    height:500px;
-    margin:auto; /*you only need this part to center*/
-    margin-top:100px;
+    position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 650px;
+     height: 300px;
     text-align:center;
     background-color: white;
+    padding: 10px;
     
 }
 
@@ -90,53 +115,159 @@ body {background-color: #91A8d0;}
 .boxed1 {
   border: 2px solid black ;
     width:650px;
-    height:150px;
+    height:100px;
     margin:auto; /*you only need this part to center*/
     margin-top:90px;
     text-align:center;
     background-color: white;
+    padding: 10px;
 }
 
 /* forum page - forum post */
 .boxed2 {
   border: 2px solid black ;
     width:650px;
-    height:150px;
+    height:100px;
     margin:auto; /*you only need this part to center*/
     margin-top:50px;
     text-align:center;
     background-color: white;
+    padding: 10px;
 }
 
 /* forum page - forum post */
 .boxed3 {
   border: 2px solid black ;
     width:650px;
-    height:150px;
+    height:100px;
     margin:auto; /*you only need this part to center*/
     margin-top:50px;
     text-align:center;
     background-color: white;
+    padding: 10px;
 }
+
+/* our mission */
+.boxed4 {
+  border: 2px solid black ;
+    position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 700px;
+     height: 250px;
+    text-align:center;
+    background-color: white;
+    padding: 10px;
+    
+}
+
 
 /* write page - your title */
 .write {
   border: 2px solid black ;
     width:650px;
-    height:300px;
+    height:200px;
     margin:auto; /*you only need this part to center*/
     text-align:center;
     background-color: white;
+     padding: 10px;
 }
 
 /* write page - your post */
 .writeTitle {
   border: 2px solid black ;
     width:650px;
-    height:50px;
+    height:40px;
     margin:auto; /*you only need this part to center*/
     margin-top:70px;
     margin-bottom:50px;
     text-align:center;
     background-color: white;
+     padding: 10px;
 }
+
+.cancel {
+    /*padding: 10px 20px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    width: 65%;
+    height:50px;
+    margin-top: 35px;
+}
+
+.cancel a {
+    border: 1px solid black;
+    padding: 10px 20px;
+   
+    text-align: center;
+    background-color: #f4c8c8;
+    text-align: center;
+}
+
+.submit {
+     /*padding: 10px 20px;*/
+    /*margin-left: 15px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+   
+    
+}
+
+.submit a {
+    border: 1px solid black;
+    padding: 10px 20px;
+   /* margin-left: 85px;*/
+    
+    text-align: center;
+    background-color: #f4c8c8;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   
+    position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 400px;
+     height: 200px;
+    
+    text-align: center;
+    background-color: white;
+    
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   
+    
+     
+     width: 400px;
+     height: 200px;
+    
+    text-align: center;
+    background-color: white;
+    
+}
+
+
+#rectangle{
+    margin: auto;
+    margin-top: 500px;
+    width:800px;
+    height:80px;
+    background:white;
+}
+
+
+
