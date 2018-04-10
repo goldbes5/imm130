@@ -97,8 +97,10 @@ body {background-color: #91A8d0;}
 /* home page - forum rules */
 .boxed {
   border: 2px solid black ;
+    
     position: absolute;
      margin: auto;
+    margin-top: 370px;
      top: 0;
      right: 0;
      bottom: 0;
